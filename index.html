@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hardik Mittal — Portfolio</title>
+<style>
+:root{--bg:#0b0f17;--card:#141a26;--text:#e8ecf3;--muted:#93a0b8;--accent:#6ea8ff;--line:#222b3d;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f8fc;--card:#fff;--text:#14192b;--muted:#5b667d;--accent:#2563eb;--line:#e1e6f0}}
+:root[data-theme="dark"]{--bg:#0b0f17;--card:#141a26;--text:#e8ecf3;--muted:#93a0b8;--accent:#6ea8ff;--line:#222b3d}
+:root[data-theme="light"]{--bg:#f6f8fc;--card:#fff;--text:#14192b;--muted:#5b667d;--accent:#2563eb;--line:#e1e6f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:18px;padding:14px 20px;overflow-x:auto;z-index:5}
+nav a{color:var(--muted);text-decoration:none;font-size:14px;white-space:nowrap}nav a:hover{color:var(--accent)}
+main{max-width:860px;margin:0 auto;padding:0 20px 60px}
+section{padding:48px 0 8px}
+h1{font-size:clamp(34px,7vw,56px);margin:0 0 8px;line-height:1.1}
+h2{font-size:22px;margin:0 0 18px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.hero{padding-top:70px}.hero p{color:var(--muted);font-size:18px;max-width:600px}
+.accent{color:var(--accent)}
+.btn{display:inline-block;margin:8px 10px 0 0;padding:10px 18px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none;font-size:14px}
+.btn.o{background:none;border:1px solid var(--line);color:var(--text)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card h3{margin:0 0 4px;font-size:17px}.card p{margin:6px 0 0;color:var(--muted);font-size:14px}
+.meta{color:var(--accent);font-size:13px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}.tags span{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:5px 14px;font-size:13px}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:30px}
+</style>
+</head>
+<body>
+<nav><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#hackathons">Hackathons</a><a href="#contact">Contact</a></nav>
+<main>
+<section class="hero" id="about">
+<p class="meta">Hello, I'm</p>
+<h1>Hardik <span class="accent">Mittal</span></h1>
+<p>B.Tech student in Electronics &amp; Communication Engineering with AI at IIIT Dharwad (Class of 2027). I build things with code and data. <em>[Short bio — coming soon]</em></p>
+<a class="btn" href="#projects">View Projects</a><a class="btn o" href="#contact">Get in touch</a>
+</section>
+
+<section id="experience"><h2>Work Experience</h2>
+<div class="grid"><div class="card"><h3>Role Title</h3><div class="meta">Company · Month Year – Month Year</div><p>Describe what you built and the impact. <em>[Details coming soon]</em></p></div></div>
+</section>
+
+<section id="projects"><h2>Projects</h2>
+<div class="grid">
+<div class="card"><h3>Project One</h3><div class="meta">Tech · Stack · Used</div><p>One-line description of the problem and result. <em>[GitHub / live link]</em></p></div>
+<div class="card"><h3>Project Two</h3><div class="meta">Tech · Stack · Used</div><p>One-line description of the problem and result. <em>[GitHub / live link]</em></p></div>
+<div class="card"><h3>Project Three</h3><div class="meta">Tech · Stack · Used</div><p>One-line description of the problem and result. <em>[GitHub / live link]</em></p></div>
+</div></section>
+
+<section id="skills"><h2>Skills</h2>
+<div class="tags"><span>Skill 1</span><span>Skill 2</span><span>Skill 3</span><span>Skill 4</span><span>Skill 5</span></div>
+</section>
+
+<section id="hackathons"><h2>Hackathons &amp; Achievements</h2>
+<div class="grid"><div class="card"><h3>Hackathon Name</h3><div class="meta">Result · Year</div><p>What you built. <em>[Details coming soon]</em></p></div></div>
+</section>
+
+<section id="contact"><h2>Contact</h2>
+<p>Email · GitHub · LinkedIn <em>[links coming soon]</em></p>
+</section>
+</main>
+<footer>© Hardik Mittal · IIIT Dharwad</footer>
+</body>
+</html>
